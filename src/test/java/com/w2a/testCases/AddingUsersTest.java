@@ -27,7 +27,7 @@ public class AddingUsersTest extends TestBase{
 		wait=new WebDriverWait(driver, 4);
 		Thread.sleep(3000);
 		wait.until(ExpectedConditions.alertIsPresent()).accept();
-				
+				System.out.println("adding an op command");
 	}
 	
 	
