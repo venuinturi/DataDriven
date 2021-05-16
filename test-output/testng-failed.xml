@@ -5,7 +5,7 @@
     <classes>
       <class name="com.w2a.testCases.AddingUsersTest">
         <methods>
-          <include name="AddUsers"/>
+          <include name="AddUsers" invocation-numbers="1"/>
           <include name="setup"/>
           <include name="TearDown"/>
         </methods>

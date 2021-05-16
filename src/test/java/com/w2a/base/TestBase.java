@@ -64,6 +64,7 @@ public class TestBase {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		wait=new WebDriverWait(driver, 4);
 	}
 
 	

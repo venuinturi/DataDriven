@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-15T23:16:41 IST" name="DataDrivenBasics" finished-at="2021-05-15T23:16:53 IST" duration-ms="11501">
+  <suite started-at="2021-05-16T08:56:56 IST" name="DataDrivenBasics" finished-at="2021-05-16T08:57:14 IST" duration-ms="17907">
     <groups>
     </groups>
-    <test started-at="2021-05-15T23:16:41 IST" name="LoginTest" finished-at="2021-05-15T23:16:44 IST" duration-ms="3266">
+    <test started-at="2021-05-16T08:56:56 IST" name="LoginTest" finished-at="2021-05-16T08:56:59 IST" duration-ms="3234">
       <class name="com.w2a.testCases.LoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testCases.LoginTest@8462f31]" started-at="2021-05-15T23:16:41 IST" name="loginAsBankManager" finished-at="2021-05-15T23:16:44 IST" duration-ms="3173" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testCases.LoginTest@8462f31]" started-at="2021-05-16T08:56:56 IST" name="loginAsBankManager" finished-at="2021-05-16T08:56:59 IST" duration-ms="3168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.w2a.testCases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2021-05-15T23:16:44 IST" name="Add Customer test" finished-at="2021-05-15T23:16:53 IST" duration-ms="8202">
+    <test started-at="2021-05-16T08:56:59 IST" name="Add Customer test" finished-at="2021-05-16T08:57:14 IST" duration-ms="14643">
       <class name="com.w2a.testCases.AddingUsersTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-15T23:16:36 IST" name="setup" finished-at="2021-05-15T23:16:41 IST" duration-ms="5153" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-16T08:56:51 IST" name="setup" finished-at="2021-05-16T08:56:56 IST" duration-ms="4957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddUsers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-15T23:16:45 IST" name="AddUsers" data-provider="dataGetter" finished-at="2021-05-15T23:16:49 IST" duration-ms="3698" status="PASS">
+        <test-method signature="AddUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-16T08:57:00 IST" name="AddUsers" data-provider="dataGetter" finished-at="2021-05-16T08:57:07 IST" duration-ms="6929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,11 +36,16 @@
                 <![CDATA[5a00072]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddUsers -->
-        <test-method signature="AddUsers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-15T23:16:49 IST" name="AddUsers" data-provider="dataGetter" finished-at="2021-05-15T23:16:53 IST" duration-ms="3476" status="PASS">
+        <test-method signature="AddUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-16T08:57:07 IST" name="AddUsers" data-provider="dataGetter" finished-at="2021-05-16T08:57:14 IST" duration-ms="6624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,11 +62,16 @@
                 <![CDATA[jaksdhas12]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddUsers -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-15T23:16:53 IST" name="TearDown" finished-at="2021-05-15T23:16:57 IST" duration-ms="3911" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.w2a.testCases.AddingUsersTest@5745ca0e]" started-at="2021-05-16T08:57:14 IST" name="TearDown" finished-at="2021-05-16T08:57:18 IST" duration-ms="3848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

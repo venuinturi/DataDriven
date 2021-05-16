@@ -1,6 +1,6 @@
-23:16:36,409 DEBUG devpinoyLogger:43 - config file loaded!!!!!
-23:16:40,655 DEBUG devpinoyLogger:49 - Chrome Launched!!!!!
-23:16:41,649 DEBUG devpinoyLogger:15 - inside login test
-23:16:44,767 DEBUG devpinoyLogger:21 - Login successfully executed
-23:16:44,809 DEBUG devpinoyLogger:26 - button found successfully
-23:16:57,008 DEBUG devpinoyLogger:86 - Quitting browser
+08:56:51,366 DEBUG devpinoyLogger:43 - config file loaded!!!!!
+08:56:55,221 DEBUG devpinoyLogger:49 - Chrome Launched!!!!!
+08:56:56,382 DEBUG devpinoyLogger:15 - inside login test
+08:56:59,507 DEBUG devpinoyLogger:21 - Login successfully executed
+08:56:59,537 DEBUG devpinoyLogger:26 - button found successfully
+08:57:18,075 DEBUG devpinoyLogger:87 - Quitting browser
