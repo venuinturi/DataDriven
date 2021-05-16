@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class AddingUsersTest extends TestBase{
 
 	@Test(dataProvider="dataGetter")
 	public void AddUsers(String FirstName, String LastName, String PostCode, String ValidationText) throws InterruptedException {
-		
+		System.setProperty("org.uncommons.reportng.escape-output", "false");
 		//Verify.verify(isElementPresent(By.xpath(or.getProperty("AddCusbtn"))));
 		
 		driver.findElement(By.xpath(or.getProperty("AddCusbtn"))).click();
@@ -32,7 +33,7 @@ public class AddingUsersTest extends TestBase{
 		Alert alert=wait.until(ExpectedConditions.alertIsPresent());
 		Assert.assertTrue(alert.getText().contains(ValidationText));
 		alert.accept();
-		
+		//Assert.fail("failing for screenshot");
 		Thread.sleep(3000);
 		
 				
