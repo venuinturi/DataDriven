@@ -6,11 +6,22 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="com.w2a.listeners.CustomListeners"/>
   </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.w2a.testCases.LoginTest">
+        <methods>
+          <include name="loginAsBankManager"/>
+          <include name="setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.w2a.testCases.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
   <test thread-count="5" name="Add Customer test(failed)">
     <classes>
       <class name="com.w2a.testCases.AddingUsersTest">
         <methods>
-          <include name="AddUsers" invocation-numbers="0 1"/>
+          <include name="AddUsers" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="TearDown"/>
         </methods>

@@ -25,6 +25,8 @@ public class LoginTest extends TestBase {
 		
 		log.debug("button found successfully");
 		System.out.println("executed final");
+		
+		Assert.fail("Failing after  login test)");
 	}
 
 

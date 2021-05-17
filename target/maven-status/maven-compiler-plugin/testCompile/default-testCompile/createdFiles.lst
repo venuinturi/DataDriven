@@ -1,0 +1,7 @@
+com\w2a\testCases\LoginTest.class
+com\w2a\utilities\ExcelReader.class
+com\w2a\testCases\AddingUsersTest.class
+com\w2a\listeners\CustomListeners.class
+com\w2a\rough\TestProperties.class
+com\w2a\utilities\Utilities.class
+com\w2a\base\TestBase.class

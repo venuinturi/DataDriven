@@ -34,6 +34,7 @@ public class AddingUsersTest extends TestBase{
 		Assert.assertTrue(alert.getText().contains(ValidationText));
 		alert.accept();
 		//Assert.fail("failing for screenshot");
+		Assert.fail("Failing after  Adding user test)");
 		Thread.sleep(3000);
 		
 				
